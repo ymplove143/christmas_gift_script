@@ -56,7 +56,7 @@ CreateThread(function()
             if insideGiftZone then
                 QBCore.Functions.Notify("You are enjoying chirstmas", 'success')
             else
-                QBCore.Functions.Notify("Thanks For comming")
+                QBCore.Functions.Notify("Thanks For coming")
             end
         end)
         

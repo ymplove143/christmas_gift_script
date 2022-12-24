@@ -22,7 +22,7 @@ Config.GiftCooldown = 30 --Minutes
 -- Gift Money per below minutes and below amount
 Config.WanttoGiveMoney = true
 Config.GiftMoney = 100
-Config.GiftMoneyTime = 10
+Config.GiftMoneyTime = 10 -- Minutes
 
 
 
@@ -58,4 +58,4 @@ Config.BigGiftItems = {
     [8]= "smallgift",
     [9]= "mediumgift",
 }
------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
