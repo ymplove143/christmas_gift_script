@@ -15,7 +15,7 @@ RegisterNetEvent('ymp-christmasgift:server:gotMoney', function()
     local src = source
 	local Player = QBCore.Functions.GetPlayer(src)
     Player.Functions.AddMoney('cash', Config.GiftMoney)
-    TriggerClientEvent("QBCore:Notify", source, "You Got Money From Santa", "error")
+    TriggerClientEvent("QBCore:Notify", source, "You Got Money From Santa", "success")
        
 end)
 RegisterNetEvent('ymp-christmasgift:server:openedSmallGift', function()
